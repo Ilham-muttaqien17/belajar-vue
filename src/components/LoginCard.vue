@@ -1,0 +1,21 @@
+<template>
+  <div class="bg-dark-blue w-[900px] max-w-[1200px] h-[700px] max-h-[800px] rounded-3xl grid grid-cols-2 p-2">
+    <div class="bg-no-repeat bg-cover bg-center rounded-l-3xl w-full h-full image-card"></div>
+    <login-form></login-form>
+  </div>
+</template>
+<script>
+import LoginForm from './LoginForm.vue'
+
+export default {
+  name: "LoginCard",
+  components: {
+    LoginForm
+  }
+}
+</script>
+<style scoped>
+  .image-card {
+    background-image: url('../assets/luoyi.png');
+  }
+</style>
