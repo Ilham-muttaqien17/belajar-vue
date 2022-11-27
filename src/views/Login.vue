@@ -1,5 +1,5 @@
 <template>
-  <div class="flex items-center justify-center h-screen">
+  <div class="bg-no-repeat bg-cover bg-center image-card w-full flex items-center justify-center h-screen">
     <login-card></login-card>
   </div>
 </template>
@@ -14,3 +14,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+  .image-card {
+    background-image: url('../assets/bg-luoyi.png');
+  }
+</style>
