@@ -1,6 +1,6 @@
 <template>
-  <div class="bg-dark-blue w-[900px] max-w-[1200px] h-[700px] max-h-[800px] rounded-3xl grid grid-cols-2 p-2">
-    <div class="bg-no-repeat bg-cover bg-center rounded-l-3xl w-full h-full image-card"></div>
+  <div class="bg-dark-blue w-[400px] lg:w-[900px] max-w-[1200px] h-[650px] max-h-[800px] rounded-3xl grid grid-cols-1 lg:grid-cols-2 p-2">
+    <div class="bg-no-repeat bg-cover bg-center rounded-l-3xl w-full h-full image-card hidden lg:block"></div>
     <login-form></login-form>
   </div>
 </template>
