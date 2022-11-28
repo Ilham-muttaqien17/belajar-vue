@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col justify-center px-6">
+  <div class="flex flex-col justify-center px-6 lg:pl-6 lg:pr-12">
     <h2 class="text-left text-3xl text-light-green font-[800] mb-10">Lets get Started</h2>
     <form class="flex flex-col" action="">
       <div class="flex flex-col space-y-6">
